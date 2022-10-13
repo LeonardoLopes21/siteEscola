@@ -1,0 +1,97 @@
+#crsl{
+    margin: 300px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 0!important;
+    bottom: 1.25rem;
+    left: 0!important;
+    padding-top: 1.25rem;
+    padding-bottom: 2.25rem;
+    color: #fff;
+    text-align: center;
+    top: 0px;
+    height: 1750px;
+    opacity: 0;
+}
+
+#genOther{
+
+    display: none;
+    
+}
+
+.navedits{
+
+    background-image: linear-gradient(75deg, rgb(0, 0, 0), rgb(99, 99, 99))!important;
+
+}
+
+.dropdown-menu li a{
+
+    color: black!important;
+
+}
+
+.navedits a, a:active{
+    color: #fff!important;
+}
+
+.carousel-caption:hover{
+    animation-name: entrada;
+    animation-duration: 1s;
+    opacity: .75;
+}
+
+.carousel-control-next{
+    height: 0;
+    width: 0;
+    margin-top: 475px;
+}
+
+.carousel-control-prev{
+    height: 0;
+    width: 0;
+    margin-top: 475px;
+}
+
+.carousel-caption h5{
+    padding-top: 425px;
+}
+
+.nav-link:hover {
+
+    cursor: pointer;
+
+}
+
+@keyframes entrada {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0.75;
+    }
+}
+
+/* FORMS */
+
+.quant, .turmas{
+    display: none!important;
+}
+
+#selectClasses{
+    display: none;
+}
+
+#form-register{
+    display: none;
+}
+
+#showRegistry {
+    display: none;
+}
